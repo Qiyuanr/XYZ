@@ -2,7 +2,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://https://156349.xyz/",
+    url: "https://156349.xyz/",
     title: "管哥进来坐坐啊",
     description: "远远的网站，分享好东西.",
     author: "裕安",
