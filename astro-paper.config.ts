@@ -3,9 +3,9 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://156349.xyz/",
-    title: "管哥进来坐坐啊",
+    title: "远远的网站，分享好东西",
     description: "远远的网站，分享好东西.",
-    author: "裕安",
+    author: "远远",
     profile: "https://156349.xyz",
     ogImage: "default-og.jpg",
     lang: "en",
