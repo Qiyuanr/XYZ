@@ -3,8 +3,8 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://156349.xyz/",
-    title: "远远的网站，分享好东西",
-    description: "远远的网站，分享好东西.",
+    title: "远在天边,好东西在眼前.",
+    description: "远在天边,好东西在眼前.",
     author: "远远",
     profile: "https://156349.xyz",
     ogImage: "default-og.jpg",
@@ -29,17 +29,17 @@ export default defineAstroPaperConfig({
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/satnaing/astro-paper" },
-    { name: "x",        url: "https://x.com/username" },
-    { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
-    { name: "mail",     url: "mailto:yourmail@gmail.com" },
+    { name: "github",   url: "https://156349.xyz/" },
+    { name: "x",        url: "https://156349.xyz/" },
+    { name: "linkedin", url: "https://156349.xyz/" },
+    { name: "mail",     url: "https://156349.xyz/" },
   ],
   shareLinks: [
-    { name: "whatsapp", url: "https://wa.me/?text=" },
-    { name: "facebook", url: "https://www.facebook.com/sharer.php?u=" },
-    { name: "x",        url: "https://x.com/intent/post?url=" },
-    { name: "telegram", url: "https://t.me/share/url?url=" },
-    { name: "pinterest", url: "https://pinterest.com/pin/create/button/?url=" },
-    { name: "mail",     url: "mailto:?subject=See%20this%20post&body=" },
+    { name: "whatsapp", url: "https://156349.xyz/" },
+    { name: "facebook", url: "https://156349.xyz/" },
+    { name: "x",        url: "https://156349.xyz/" },
+    { name: "telegram", url: "https://156349.xyz/" },
+    { name: "pinterest", url: "https://156349.xyz/" },
+    { name: "mail",     url: "https://156349.xyz/" },
   ],
 });
