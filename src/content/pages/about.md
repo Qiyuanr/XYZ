@@ -3,13 +3,13 @@ title: "About"
 description: "A bit about me and this blog."
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+网络涉世札记 [hello](https://156349.xyz/) and [world](https://156349.xyz/).
 
 ![Astro Paper](@/assets/images/astropaper-og.jpg)
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+网络、AI学习.
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+笔记本.
 
 ## Features
 
@@ -21,7 +21,7 @@ AstroPaper comes with a set of useful features that make content publishing easy
 - Highly customizable
 - Organizable blog posts
 - Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
+- Static search with [PageFind](https://156349.xyz/)
 - Automatic social image generation
 
 and so much more.
@@ -34,4 +34,4 @@ Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue
 
 If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
 
-Kyay zuu! 🙏🏼
+远远! 🙏🏼
