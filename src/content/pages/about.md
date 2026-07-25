@@ -1,37 +1,23 @@
 ---
-title: "About"
-description: "A bit about me and this blog."
+title: "关于"
+description: "关于我，以及为什么建立这个网站。"
 ---
 
-网络涉世札记 [hello](https://156349.xyz/) and [world](https://156349.xyz/).
+## 远在天边，好东西在眼前。
 
-![Astro Paper](@/assets/images/astropaper-og.jpg)
+这是一个关于 AI、实践与创作的个人空间。
 
-网络、AI学习.
+我关注的并不只是“AI 能做什么”，而是怎样把它真正放进日常工作和创作里：如何提出更好的问题，如何搭建可靠的工作流，如何分辨看起来惊艳和实际上有用的东西。
 
-笔记本.
+这里会记录我的真实尝试，包括成功的经验、失败的过程、工具使用心得，以及逐渐成形的作品。内容不追求面面俱到，更希望具体、诚实，并且对下一次行动有帮助。
 
-## Features
+### 我会写些什么
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+- AI 工具与模型的实际使用经验
+- 提示词、自动化和个人工作流
+- 项目复盘与踩坑记录
+- 创作实验、作品和灵感碎片
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://156349.xyz/)
-- Automatic social image generation
+这个网站本身也会持续变化。它既是笔记本，也是作品的一部分。
 
-and so much more.
-
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-远远! 🙏🏼
+[回到首页](https://156349.xyz/)

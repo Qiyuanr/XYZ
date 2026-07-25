@@ -35,7 +35,7 @@ const homePath = getRelativeLocaleUrl(locale, "");
   >
     <section id="hero" class="border-border border-b pt-8 pb-6">
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Mingalaba
+        远在天边，<span class="text-accent">好东西在眼前。</span>
       </h1>
       <a
         target="_blank"
@@ -52,21 +52,33 @@ const homePath = getRelativeLocaleUrl(locale, "");
         <span class="sr-only">RSS Feed</span>
       </a>
 
-      <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+      <p class="max-w-2xl text-lg leading-8">
+        这里是我的 AI 实践笔记，也是一个持续生长的创作空间。
+        我会记录真实的尝试、踩过的坑、值得反复使用的方法，以及偶尔出现的灵感。
       </p>
-      <p class="mt-2">
-        Read the blog posts or check
+      <p class="mt-3 text-muted-foreground">
+        从一个具体问题出发，把复杂的东西想清楚、做出来，再诚实地写下来。
         <LinkButton
           class="hover:text-accent underline decoration-dashed underline-offset-4"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href={getRelativeLocaleUrl(locale, "about")}
         >
-          README
-        </LinkButton> for more info.
+          了解更多
+        </LinkButton>
       </p>
+      <div class="mt-8 grid gap-3 sm:grid-cols-3">
+        <div class="border-border rounded-lg border p-4">
+          <strong class="block">AI 实践</strong>
+          <span class="text-muted-foreground mt-1 block text-sm">模型、工作流与真实项目</span>
+        </div>
+        <div class="border-border rounded-lg border p-4">
+          <strong class="block">方法沉淀</strong>
+          <span class="text-muted-foreground mt-1 block text-sm">可复用的经验与思考</span>
+        </div>
+        <div class="border-border rounded-lg border p-4">
+          <strong class="block">创作展示</strong>
+          <span class="text-muted-foreground mt-1 block text-sm">作品、实验与新鲜想法</span>
+        </div>
+      </div>
       {
         socials.length > 0 && (
           <div class="mt-4 flex max-sm:flex-col sm:items-center">

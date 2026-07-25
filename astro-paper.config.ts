@@ -4,12 +4,12 @@ export default defineAstroPaperConfig({
   site: {
     url: "https://156349.xyz/",
     title: "远在天边,好东西在眼前.",
-    description: "远在天边,好东西在眼前.",
+    description: "记录 AI 实践、思考与创作的个人主页。",
     author: "远远",
     profile: "https://156349.xyz",
     ogImage: "default-og.jpg",
-    lang: "en",
-    timezone: "Asia/Shanghai",
+    lang: "zh-cn",
+    timezone: "Asia/Dubai",
     dir: "ltr",
   },
   posts: {
@@ -19,12 +19,11 @@ export default defineAstroPaperConfig({
   },
   features: {
     lightAndDarkMode: true,
-    dynamicOgImage: true,
+    dynamicOgImage: false,
     showArchives: true,
     showBackButton: true,
     editPost: {
-      enabled: true,
-      url: "https://github.com/satnaing/astro-paper/edit/main/",
+      enabled: false,
     },
     search: "pagefind",
   },
