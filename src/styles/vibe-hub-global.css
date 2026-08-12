@@ -1,0 +1,107 @@
+.vibe-hub-route {
+  --ink: #0c0d0d;
+  --paper: #f2efe8;
+  --electric-pink: #ff2bd6;
+  --electric-blue: #2ad9ff;
+  --electric-violet: #8b5cff;
+  --electric-deep: #65117a;
+  --acid: var(--electric-pink);
+  --mint: var(--electric-blue);
+  --coral: var(--electric-violet);
+  --line: rgba(242, 239, 232, 0.16);
+  --font-geist-sans: Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-geist-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  width: 100%;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-geist-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.vibe-hub-route *,
+.vibe-hub-route *::before,
+.vibe-hub-route *::after {
+  box-sizing: border-box;
+}
+
+.vibe-hub-route a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.vibe-hub-route button,
+.vibe-hub-route input,
+.vibe-hub-route textarea,
+.vibe-hub-route select {
+  font: inherit;
+}
+
+.vibe-hub-route .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  width: fit-content;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 12px;
+  font-weight: 650;
+  letter-spacing: 0.12em;
+}
+
+.vibe-hub-route .brand-mark {
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: var(--acid);
+  color: var(--ink);
+  font-family: Georgia, serif;
+  font-size: 17px;
+  font-style: italic;
+  letter-spacing: 0;
+}
+
+.vibe-hub-route .section-kicker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 28px;
+  color: rgba(242, 239, 232, 0.68);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.vibe-hub-route .button {
+  min-height: 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 0 24px;
+  border-radius: 999px;
+  font-size: 13px;
+  transition:
+    transform 180ms ease,
+    background 180ms ease,
+    color 180ms ease;
+}
+
+.vibe-hub-route .button:hover {
+  transform: translateY(-2px);
+}
+
+.vibe-hub-route .button-primary {
+  background: var(--acid);
+  color: var(--ink);
+}
+
+.vibe-hub-route .button-primary:hover {
+  background: var(--mint);
+}
+
+.vibe-hub-route .footer-brand {
+  color: var(--paper);
+}

@@ -1,0 +1,14 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import VibeHubPage from "@/components/vibe-hub/VibeHubPage";
+import "@/styles/vibe-hub-global.css";
+---
+
+<Layout
+  title="Vibe Coding 术语图鉴 · 远在天边，好东西在眼前"
+  description="面向普通人的 Vibe Coding 术语入口：搜索 250 个前端、后端、产品、AI、Git 与设计术语，并直接操作 29 个控件示例。"
+>
+  <div class="vibe-hub-route">
+    <VibeHubPage client:load />
+  </div>
+</Layout>
